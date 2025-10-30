@@ -3,7 +3,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pytgcalls import PyTgCalls
-from pytgcalls.types import AudioStream
+from pytgcalls import Stream
 
 # Environment Variables
 API_ID = int(os.environ["API_ID"])
@@ -50,7 +50,7 @@ async def play_song(client: Client, message: Message):
             info = ydl.extract_info(f"ytsearch:{query}", download=True)
             title = info['entries'][0]['title']
             filepath = ydl.prepare_filename(info['entries'][0])
-        await group_call.play(AudioStream(filepath))
+        await group_call.play(Stream(filepath))
         await message.reply_text(f"Now playing: **{title}**")
     except Exception as e:
         await message.reply_text(f"Error: {e}")
