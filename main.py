@@ -50,7 +50,7 @@ async def play_song(client: Client, message: Message):
             info = ydl.extract_info(f"ytsearch:{query}", download=True)
             title = info['entries'][0]['title']
             filepath = ydl.prepare_filename(info['entries'][0])
-        await group_call.play(AudioPiped(filepath))
+        await group_call.play(AudioStream(filepath))
         await message.reply_text(f"Now playing: **{title}**")
     except Exception as e:
         await message.reply_text(f"Error: {e}")
