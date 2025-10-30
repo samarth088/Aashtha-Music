@@ -13,7 +13,7 @@ BOT_TOKEN = os.environ.get("8363287733:AAHfyD9lmXbcO02HUZuFzN6Va4Hg-ESR3Yg")
 SESSION_STRING = os.environ.get("SESSION_STRING")
 
 # === CLIENTS ===
-bot = Client("music_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+bot = Client("music_bot", api_id=22219296, api_hash=525192292aa8adcdc641d9c7093c35f8, bot_token=8363287733:AAHfyD9lmXbcO02HUZuFzN6Va4Hg-ESR3Yg)
 user = Client("vc_player", api_id=API_ID, api_hash=API_HASH, session_string=SESSION_STRING)
 
 # === VC SETUP ===
