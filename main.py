@@ -7,9 +7,9 @@ import asyncio
 from pytgcalls import GroupCallFactory
 
 # === ENV VARS ===
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+API_ID = int(os.environ.get("22219296"))
+API_HASH = os.environ.get("525192292aa8adcdc641d9c7093c35f8")
+BOT_TOKEN = os.environ.get("8363287733:AAHfyD9lmXbcO02HUZuFzN6Va4Hg-ESR3Yg")
 SESSION_STRING = os.environ.get("SESSION_STRING")
 
 # === CLIENTS ===
