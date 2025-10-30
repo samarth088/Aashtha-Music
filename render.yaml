@@ -1,10 +1,10 @@
-services:
+⁶services:
   - type: web
     name: AashthaMusic
     env: python
     region: singapore
     plan: free
-    pythonVersion: "3.11.9"  # ← Ye force karega
+    pythonVersion: 3.11.9
     buildCommand: >-
       apt-get update && 
       apt-get install -y ffmpeg build-essential && 
