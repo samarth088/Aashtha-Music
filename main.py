@@ -10,7 +10,7 @@ from pytgcalls import GroupCallFactory
 API_ID = int(os.environ.get("22219296"))
 API_HASH = os.environ.get("525192292aa8adcdc641d9c7093c35f8")
 BOT_TOKEN = os.environ.get("8363287733:AAHfyD9lmXbcO02HUZuFzN6Va4Hg-ESR3Yg")
-SESSION_STRING = os.environ.get("SESSION_STRING")
+SESSION_STRING = os.environ.get("BQFTCiAAsTdQ2xiR4R1zi8-I_gPvAXfQJbR9wZ__qU0bNqpWdPkV9vYJH1WFK5vCCwz95wpxxSvz7oTNEhdijPSU-it7jNMU6Tx71g8dB-GeWb4dGK-Fn7qVo5tTJXoGC38hfW7WsrpXrtPa6Lsu2A4iz0EQE_5Dmd54KlPDBWgEqZKt4A2JIbISP2L21J2gv1tN7Zn4wAKmNDYiMdwKKovijZMIuanMYVK-UF8aephZ5-2ixIJxxGUM9GgP50QWsMShQLmBPLAHGFnrA-bbJjI-yc2EvJ-1xBhV3YAMwmEMwXLshHKLz6PK32YROkGysGtMqRS_ehEvt-iY8bXbxj2BNx3bKQAAAAHo7gw5AQ")
 
 # === CLIENTS ===
 bot = Client("music_bot", api_id=22219296, api_hash=525192292aa8adcdc641d9c7093c35f8, bot_token=8363287733:AAHfyD9lmXbcO02HUZuFzN6Va4Hg-ESR3Yg)
