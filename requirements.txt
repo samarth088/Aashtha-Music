@@ -1,4 +1,4 @@
 pyrogram==2.0.106
 tgcrypto==1.2.5
-yt-dlp==2023.12.30
-git+https://github.com/pytgcalls/pytgcalls
+yt-dlp==2024.10.22
+git+https://github.com/pytgcalls/pytgcalls@v3.1.0
